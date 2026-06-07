@@ -66,40 +66,56 @@
     <div class="container">
 
 <div class="row">
-<div class="col-md-7">
-    <p>
-        <b>
-            Workshop on Synthesis in LLMs: an in-person workshop at
-            <a href="https://neurips.cc">NeurIPS 2026</a>
-        </b> <br>
-    December 12 or 13, 2026 <br>
-    <!-- <b>Room 290</b>, <a href="https://mccno.com/">Ernest N. Morial Convention Center</a>, New Orleans, Louisiana <br> -->
-    </p>
+<div class="col-md-7" style="padding-left: 0px;  padding-right: 10px;">
+  <p>
+      <b>
+          Workshop on Synthesis in LLMs: an in-person workshop at
+          <a href="https://neurips.cc">NeurIPS 2026</a>
+      </b> <br>
+  December 12 or 13, 2026 <br>
+  <!-- <b>Room 290</b>, <a href="https://mccno.com/">Ernest N. Morial Convention Center</a>, New Orleans, Louisiana <br> -->
+  </p>
 
 <p>
-  More information about the workshop, including the call for papers, schedule, and accepted papers will be posted here as it becomes available. Please check back for updates!
+  Several tasks require <em>synthesizing</em> information across multiple sources, often differing in modality, structure, and reliability to reach a final conclusion. For instance, synthesis is central to multi-document question answering, meta-analysis of clinical trials, survey writing, literature review generation, and longitudinal summarization. The core challenge across these tasks is that models must weigh and reconcile different pieces of information to reach a final conclusion. Unlike retrieval which focuses on identifying relevant information, and summarization which focuses on compressing it, synthesis requires models to reason under uncertainty and determine what pieces of information to prioritize and trust.
 </p>
 
 </div>
 
 <div class="col-md-5" style="padding-left: 0px;  padding-right: 0px;">
-<figure class="figure">
-<img
-    src="images/paris.jpg"
-    class="img-fluid"
-    alt="Photo of Paris, France.">
-<figcaption class="figure-caption">
-    <a href="https://richard6da.substack.com/p/paris-france-city-of-lightheartedness">
-        image by Yann Caradec (CC-BY-2.0)</a>
-</figcaption>
-</figure>
+  <figure class="figure">
+  <img
+      src="images/paris.jpg"
+      class="img-fluid"
+      alt="Photo of Paris, France.">
+  <figcaption class="figure-caption">
+      <a href="https://richard6da.substack.com/p/paris-france-city-of-lightheartedness">
+          image by Yann Caradec (CC-BY-2.0)</a>
+  </figcaption>
+  </figure>
+</div>
+
+</div>
+</div>
+
+<div class = "row">
+<div class="col-md-12">
+
+<p>
+  The challenges encountered in this line of inquiry are multi-fold. First, synthesis as a model capability is ill-defined. Different domains operationalize synthesis in different ways. Consequently, there is no consensus on what it means for a model to synthesize well. Establishing such a formalization would provide a basis for evaluating whether models are able to reliably make conclusions even in the presence of conflicting or noisy evidence. Second, developing methods to accurately synthesize information is a significant challenge, since models struggle to appropriately weigh information. Third, designing rubrics and building sufficient evaluations to capture the novelty, accuracy, and information weighting required for synthesis is challenging and varies by domain. While more recent benchmarks and metrics have been proposed, no consensus on frameworks has emerged on measuring synthesis.
+</p>
+
+<p>
+ As models are increasingly applied to complex, evidence-driven tasks there is a pressing need to understand synthesis as a model capability. Our aim with this workshop is to provide a forum for researchers across many domains to present work on <b>understanding, improving, and measuring synthesis as a capability in large language models</b>. Concretely our goals for the workshop are as follows: (1) Tasks and Applications: We seek to formalize the definition of synthesis across different tasks and domains, (2) Methods: We aim to understand current methods, training strategies, and architectures that improve synthesis, and (3) Evaluation and Analysis: Finally, we ask how to design better benchmarks and metrics to evaluate synthesis capabilities, and how they may vary across different tasks. We hope to release the findings from our workshop as a publicly-available write up.
+</p>
+
 </div>
 </div>
 
 <div class = "row">
 <div class="col-md-12">
   <p>
-    This workshop aims to facilitate progress towards measuring, evaluating, applying, and improving the <b>synthesis capabilities of large language models (LLMs)</b> by bringing together researchers to tackle a wide variety of research questions. We encourage submissions on topics including but not limited to:
+    This workshop aims to facilitate progress towards understanding, improving, measuring, evaluating, and applying the <b>synthesis capabilities of large language models (LLMs)</b> by bringing together researchers to tackle a wide variety of research questions. We encourage submissions on topics including but not limited to:
     <ul>
       <li> How is synthesis operationalized across different tasks and domains? </li>
       <li> What applications would benefit from a model that synthesizes well? </li>
